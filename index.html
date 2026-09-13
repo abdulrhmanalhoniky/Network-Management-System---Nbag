@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+    <title>Abdulrhman portofolio</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+     <h1>Abdulrhman Mohammed Alhoniki</h1>
+    <p>Junior IT Support & Network Associate</p>
+    </header>
+    
+ <main style="max-width: 800px; margin: auto;">
+        
+        <!-- شبكة الأزرار الرئيسية للتحكم -->
+        <div class="nav-buttons-grid">
+            <div class="menu-card" onclick="showContent('about')">
+                <h2>About Me</h2>
+            </div>
+            <div class="menu-card" onclick="showContent('education')">
+                <h2>Education</h2>
+            </div>
+            <div class="menu-card" onclick="showContent('experiences')">
+                <h2>Skills and Experiences</h2>
+            </div>
+            <div class="menu-card" onclick="showContent('projects')">
+                <h2>Projects</h2>
+            </div>
+            <div class="menu-card" onclick="showContent('contact')">
+                <h2>Contact Me</h2>
+            </div>
+        </div>
+
+        <!-- مساحة العرض الرئيسية المتغيرة -->
+        <div class="display-screen">
+            
+
+            <div id="about" class="content-section active">
+                <p>Information Technology Graduite from Saudi Electronic University</p>
+                <p>with hands-on experience in it support and networking
+                passionate about automating tasks using python,configuring secure network enviroments,and solving technical challenges.</p>
+                <p>Eagr to bring my technical skills and dedication to a dynamic IT team</p>
+            </div>
+
+            <div id="education" class="content-section">
+                <h3>Academic learning</h3>
+                <p> bachelor's degree in information technology</p>
+                <h3>Courses</h3>
+                <il>
+                    cyber security 2021-2022
+                </il>
+            </div>
+
+            
+            <div id="experiences" class="content-section">
+                 <h3>Experiences</h3>
+                <ul>
+                    <li>Al Nairyah Municipality June - Augest</li>
+                </ul>
+                <h3>Skills</h3>
+                <ul>
+                    <li>Programing&DataBases</li>
+                        <ul>
+                        <li>python</li>
+                        <li>SQL/SQLite/PostrageSQL</li>
+                     </ul>
+            </ul>
+                <ul>
+                    <li>DevOps&Tools</li>
+                        <ul>
+                        <li>Docker(Continers)</li>
+                        <li>Git&GitHub</li>
+                     </ul>
+            </ul>
+                <ul>
+                    <li>Operating Systems & Networking</li>
+                        <ul>
+                        <li>Linux/Ubentu(ComandLine)</li>
+                        <li>Cisco networking(Routing, OSPF,IPsec)</li>
+                     </ul>
+            </ul>
+            </div>
+
+         
+            <div id="projects" class="content-section">
+                <h3>Projects</h3>
+                    <a href="https://github.com/abdulrhmanalhoniky/site-to-site-network-lab/tree/main">
+                        Multi-Site Enterprise Network Implementation
+                    </a><br>
+                    <a href="https://github.com/abdulrhmanalhoniky/PiggyBankExpanseTracker">
+                        PiggyBankExpanseTracker
+                    </a><br>
+
+                    <a href="https://github.com/abdulrhmanalhoniky/Network-Management-System---Nbag">
+                        Network-Management-System-Nbag
+                    </a>
+            </div>
+
+
+            <div id="contact" class="content-section">
+                <h3>Contact information</h3>
+                <p>Email:am_alhoniki@hotmail.com</p>
+                <p>phone:0537476935</p>
+                <p>linkedin:abdulrhman alhoniky</p>
+            </div>
+
+        </div>
+    </main>
+
+
+    <script src="java_script.js"></script>
+</body>
